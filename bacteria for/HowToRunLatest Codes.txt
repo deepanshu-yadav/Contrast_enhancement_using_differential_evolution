@@ -1,0 +1,43 @@
+To run the latest codes of our project, follow these steps.
+
+
+1. Open the following m files in MATLAB. Make sure that all these files would exist at one location.
+
+	bacterialforaging.m
+	bact_cellcell_attract_func.m
+	nutrientsfunc.m
+	mainprogram.m
+	member.m 
+	program1pld.m
+
+2. Change the following values, if required.
+
+		p=4;     % Dimension of the search space
+
+		S=12;	 % The number of bacteria in the population (for convenience, require this to be an
+        		 % an even number)
+
+		Nc=10;   % Number of chemotactic steps per bacteria lifetime (between reproduction steps), assumed
+       			 % for convenience to be the same for every bacteria in the population
+		Ns=10;   % Limits the length of a swim when it is on a gradient
+
+
+		Nre=1;	 % The number of reproduction steps (right now the plotting is designed for Nre=4)
+		
+		Ned=6;	% The number of elimination-dispersal events (Nre reproduction steps in between each event)
+
+3. Change/give the image in the following files.
+
+	mainprogram.m (at line 7)
+	program1pld.m (at lines 19 and 94)
+
+4. Now run the bacterialforaging.m program, It gives a set of four parameters.
+
+5. Now copy these four parametrs and paste them in the file program1pld.m at line 10. 
+(for Example: params=[7.0000 0.6000 79.7629 2.3188]).
+
+6. Run the program1pld.m code., It gives you the modified image and original images for comparison. 
+
+7. "program1pld.m" also stores the original and modified files. To do this, give the path (at lines 96 & 97) where the images have to be stored.
+
+Note : If you do not want these images to be stored, comment the lines(96 &97) of program1pld.m file.

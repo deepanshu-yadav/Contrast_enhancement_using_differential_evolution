@@ -1,0 +1,9 @@
+Steps For Running Code 
+
+
+1. After Extracting copy the "final_pro" folder into your current directory.
+2.Open  "makeop.m" in your matlab code editor.
+3. At line no 10 you can write name of the picture you want to enhance.
+   for eg 
+   imread('img.png');
+4. Click run 
